@@ -7377,7 +7377,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_q9RwkIcpEe-D48NSIE7awA" name="getFechaCompra">
           <ownedParameter xmi:id="_EtC6YIcqEe-D48NSIE7awA" name="Parameter1" direction="return">
-            <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF8SkGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/date?"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.Date%5Bproject%5Eid=BganosMOD%5D$uml.Class"/>
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_szE0kIcpEe-D48NSIE7awA" name="setFechaCompra">
