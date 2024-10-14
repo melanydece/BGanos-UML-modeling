@@ -6683,12 +6683,6 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p5MRwIWGEe-YlZhPBdwe7w"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:id="_dyMgMIWFEe-YlZhPBdwe7w" name="mostrarFabricantePorId">
-          <ownedParameter xmi:id="_D99bMIWHEe-YlZhPBdwe7w" name="idFabricante">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://VB_LIBRARIES/VBDotNetPrimitiveTypes.emx#_tsrm8W_rEduZYJFc9dH2KQ?VisualBasicPrimitiveTypes/Integer?"/>
-          </ownedParameter>
-          <ownedParameter xmi:id="_IWED4IWHEe-YlZhPBdwe7w" name="Fabricante" type="_mIlfQITIEe-SkejYGxCHnw" direction="return"/>
-        </ownedOperation>
         <ownedOperation xmi:id="_g54C0IWFEe-YlZhPBdwe7w" name="listarFabricantePorNombre">
           <ownedParameter xmi:id="_iBWy0IWGEe-YlZhPBdwe7w" name="nombre">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -6708,6 +6702,12 @@
           <ownedParameter xmi:id="_sdR_IIWGEe-YlZhPBdwe7w" name="out" type="_mIlfQITIEe-SkejYGxCHnw" direction="return">
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ubzhUYWGEe-YlZhPBdwe7w" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ubzhUIWGEe-YlZhPBdwe7w"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_mtn8YIpiEe-c8NLooGYzig" name="mostrarFabricantePorId">
+          <ownedParameter xmi:id="_ogDjUIpiEe-c8NLooGYzig" name="tFabricante" type="_mIlfQITIEe-SkejYGxCHnw" direction="return"/>
+          <ownedParameter xmi:id="_tqF_QIpiEe-c8NLooGYzig" name="id">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=BganosMOD%5D$uml.Class"/>
           </ownedParameter>
         </ownedOperation>
       </packagedElement>
