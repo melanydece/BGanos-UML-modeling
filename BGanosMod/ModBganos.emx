@@ -12988,6 +12988,32 @@
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Lr_g5Yy5Ee-egOneUFgKPw" visible="false" type="StructureCompartment"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lr-50Yy5Ee-egOneUFgKPw" x="8978" y="5609"/>
           </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_n5RO8Iy5Ee-egOneUFgKPw" element="_nM7tYIy5Ee-egOneUFgKPw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_n5RO8oy5Ee-egOneUFgKPw" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_n5R2AIy5Ee-egOneUFgKPw" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_n5R2AYy5Ee-egOneUFgKPw" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_n5R2Aoy5Ee-egOneUFgKPw" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_n5R2A4y5Ee-egOneUFgKPw" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_n5R2BIy5Ee-egOneUFgKPw" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_n5R2BYy5Ee-egOneUFgKPw" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_n5R2Boy5Ee-egOneUFgKPw" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_n5R2B4y5Ee-egOneUFgKPw" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n5RO8Yy5Ee-egOneUFgKPw" x="4551" y="5412"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_oRQ4MIy5Ee-egOneUFgKPw" element="_nM7tYYy5Ee-egOneUFgKPw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_oRQ4Moy5Ee-egOneUFgKPw" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_oRQ4M4y5Ee-egOneUFgKPw" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_oRQ4NIy5Ee-egOneUFgKPw" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_oRRfQIy5Ee-egOneUFgKPw" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_oRRfQYy5Ee-egOneUFgKPw" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_oRRfQoy5Ee-egOneUFgKPw" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_oRRfQ4y5Ee-egOneUFgKPw" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_oRRfRIy5Ee-egOneUFgKPw" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_oRRfRYy5Ee-egOneUFgKPw" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oRQ4MYy5Ee-egOneUFgKPw" x="5043" y="1599"/>
+          </children>
           <element xsi:nil="true"/>
         </contents>
       </eAnnotations>
@@ -13037,6 +13063,14 @@
         <ownedOperation xmi:id="_p5jhM4y4Ee-egOneUFgKPw" name="setPrecio"/>
         <ownedOperation xmi:id="_p5jhNIy4Ee-egOneUFgKPw" name="setStock"/>
         <ownedOperation xmi:id="_p5jhNYy4Ee-egOneUFgKPw" name="setActivo"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_nM7tYIy5Ee-egOneUFgKPw" name="SAEntradaImp"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_nM7tYYy5Ee-egOneUFgKPw" name="SAEntrada">
+        <ownedOperation xmi:id="_nM7tYoy5Ee-egOneUFgKPw" name="create"/>
+        <ownedOperation xmi:id="_nM7tY4y5Ee-egOneUFgKPw" name="read"/>
+        <ownedOperation xmi:id="_nM7tZIy5Ee-egOneUFgKPw" name="readAll"/>
+        <ownedOperation xmi:id="_nM7tZYy5Ee-egOneUFgKPw" name="readByName"/>
+        <ownedOperation xmi:id="_nM7tZoy5Ee-egOneUFgKPw" name="delete"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_R5W4oIFhEe-6Bpx90-putA" name="Fabricante">
