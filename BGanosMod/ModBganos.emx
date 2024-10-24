@@ -3,7 +3,7 @@
 <!--Rational Software Architect Designer 9.6-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:XSDProfile="http:///schemas/XSDProfile/_0SxmILmyEeCPE-4cAROvtA/102" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/XSDProfile/_0SxmILmyEeCPE-4cAROvtA/102 pathmap://XSD_PROFILES/XSDProfile.epx#_0S7XILmyEeCPE-4cAROvtA?XSDProfile/XSDProfile?">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:XSDProfile="http:///schemas/XSDProfile/_0SxmILmyEeCPE-4cAROvtA/102" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w http:///schemas/XSDProfile/_0SxmILmyEeCPE-4cAROvtA/102 pathmap://XSD_PROFILES/XSDProfile.epx#_0S7XILmyEeCPE-4cAROvtA?XSDProfile/XSDProfile?">
   <uml:Model xmi:id="_Je74woFbEe-6Bpx90-putA" name="Modelo Del Diseño">
     <eAnnotations xmi:id="_Je74w4FbEe-6Bpx90-putA" source="uml2.diagrams"/>
     <packageImport xmi:id="_Je74xIFbEe-6Bpx90-putA">
@@ -31235,11 +31235,8 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_vZ9egIFbEe-6Bpx90-putA" name="Arquitectura">
       <eAnnotations xmi:id="_vZ9egYFbEe-6Bpx90-putA" source="uml2.diagrams"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_4W8noIFbEe-6Bpx90-putA" name="Diagrama de Componentes">
-        <eAnnotations xmi:id="_4W8noYFbEe-6Bpx90-putA" source="uml2.diagrams" references="_4W8nooFbEe-6Bpx90-putA">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_4W8nooFbEe-6Bpx90-putA" type="Freeform" name="Main">
-            <element xsi:nil="true"/>
-          </contents>
-        </eAnnotations>
+        <eAnnotations xmi:id="_4W8noYFbEe-6Bpx90-putA" source="uml2.diagrams"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_9tKWQJHhEe-GDq618uWa7A" name="Component1"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_7V1aoIFbEe-6Bpx90-putA" name="Diagrama de Despliegue">
         <eAnnotations xmi:id="_7V1aoYFbEe-6Bpx90-putA" source="uml2.diagrams" references="_7V1aooFbEe-6Bpx90-putA">
@@ -31280,4 +31277,5 @@
     </profileApplication>
   </uml:Model>
   <XSDProfile:redefine xmi:id="_5LD7wJErEe-zvL1F3ckPIg" base_Generalization="_5LDUsJErEe-zvL1F3ckPIg"/>
+  <Standard:Subsystem xmi:id="_-f-TQJHhEe-GDq618uWa7A" base_Component="_9tKWQJHhEe-GDq618uWa7A"/>
 </xmi:XMI>
