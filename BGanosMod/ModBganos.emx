@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--Rational Software Architect Designer 9.6.1-->
-<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<!--Rational Software Architect Designer 9.6-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:XSDProfile="http:///schemas/XSDProfile/_0SxmILmyEeCPE-4cAROvtA/102" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w http:///schemas/XSDProfile/_0SxmILmyEeCPE-4cAROvtA/102 pathmap://XSD_PROFILES/XSDProfile.epx#_0S7XILmyEeCPE-4cAROvtA?XSDProfile/XSDProfile?">
   <uml:Model xmi:id="_Je74woFbEe-6Bpx90-putA" name="Modelo Del Diseño">
@@ -916,6 +916,74 @@
             <packagedElement xmi:type="uml:Dependency" xmi:id="__g8e4IN5Ee-jPKVnjNVLrw" supplier="_VjugYIMIEe-Q75-_rTXxHA" client="_NJ4hIIN3Ee-jPKVnjNVLrw"/>
             <packagedElement xmi:type="uml:Dependency" xmi:id="_A0XOkIN6Ee-jPKVnjNVLrw" supplier="_VjugYIMIEe-Q75-_rTXxHA" client="_Url_EIN3Ee-jPKVnjNVLrw"/>
             <packagedElement xmi:type="uml:Dependency" xmi:id="_B22mUIN6Ee-jPKVnjNVLrw" supplier="_VjugYIMIEe-Q75-_rTXxHA" client="_uynnwIN2Ee-jPKVnjNVLrw"/>
+            <packagedElement xmi:type="uml:Collaboration" xmi:id="_eZC5oJIOEe-i0KzxC481LA" name="Diagramas de secuencia">
+              <ownedBehavior xmi:type="uml:Interaction" xmi:id="_eZF88JIOEe-i0KzxC481LA" name="AltaInvernaderoCommand">
+                <eAnnotations xmi:id="_eZGkAJIOEe-i0KzxC481LA" source="uml2.diagrams">
+                  <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_eZGkAZIOEe-i0KzxC481LA" type="Sequence" element="_eZF88JIOEe-i0KzxC481LA" name="AltaInvernaderoCommand" measurementUnit="Himetric">
+                    <children xmi:type="umlnotation:UMLShape" xmi:id="_eZGkApIOEe-i0KzxC481LA" element="_eZF88JIOEe-i0KzxC481LA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                      <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_eZGkA5IOEe-i0KzxC481LA" type="interaction_compartment"/>
+                      <children xmi:type="notation:BasicDecorationNode" xmi:id="_eZGkBJIOEe-i0KzxC481LA" type="Name"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eZGkBZIOEe-i0KzxC481LA" x="529" y="529"/>
+                    </children>
+                  </contents>
+                </eAnnotations>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:Interaction" xmi:id="_kfiWwJIOEe-i0KzxC481LA" name="BajaInvernaderoCommand">
+                <eAnnotations xmi:id="_kfjk4JIOEe-i0KzxC481LA" source="uml2.diagrams">
+                  <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_kfjk4ZIOEe-i0KzxC481LA" type="Sequence" element="_kfiWwJIOEe-i0KzxC481LA" name="BajaInvernaderoCommand" measurementUnit="Himetric">
+                    <children xmi:type="umlnotation:UMLShape" xmi:id="_kfjk4pIOEe-i0KzxC481LA" element="_kfiWwJIOEe-i0KzxC481LA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                      <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_kfjk45IOEe-i0KzxC481LA" type="interaction_compartment"/>
+                      <children xmi:type="notation:BasicDecorationNode" xmi:id="_kfjk5JIOEe-i0KzxC481LA" type="Name"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kfjk5ZIOEe-i0KzxC481LA" x="529" y="529"/>
+                    </children>
+                  </contents>
+                </eAnnotations>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:Interaction" xmi:id="_nHoaYJIOEe-i0KzxC481LA" name="ModificarInvernaderoCommand">
+                <eAnnotations xmi:id="_nHpogJIOEe-i0KzxC481LA" source="uml2.diagrams">
+                  <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_nHpogZIOEe-i0KzxC481LA" type="Sequence" element="_nHoaYJIOEe-i0KzxC481LA" name="ModificarInvernaderoCommand" measurementUnit="Himetric">
+                    <children xmi:type="umlnotation:UMLShape" xmi:id="_nHpogpIOEe-i0KzxC481LA" element="_nHoaYJIOEe-i0KzxC481LA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                      <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_nHpog5IOEe-i0KzxC481LA" type="interaction_compartment"/>
+                      <children xmi:type="notation:BasicDecorationNode" xmi:id="_nHpohJIOEe-i0KzxC481LA" type="Name"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nHpohZIOEe-i0KzxC481LA" x="529" y="529"/>
+                    </children>
+                  </contents>
+                </eAnnotations>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:Interaction" xmi:id="_qu6DEJIOEe-i0KzxC481LA" name="MostrarInvernaderoPorIdCommand">
+                <eAnnotations xmi:id="_qu6qIJIOEe-i0KzxC481LA" source="uml2.diagrams">
+                  <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_qu6qIZIOEe-i0KzxC481LA" type="Sequence" element="_qu6DEJIOEe-i0KzxC481LA" name="MostrarInvernaderoPorIdCommand" measurementUnit="Himetric">
+                    <children xmi:type="umlnotation:UMLShape" xmi:id="_qu6qIpIOEe-i0KzxC481LA" element="_qu6DEJIOEe-i0KzxC481LA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                      <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_qu6qI5IOEe-i0KzxC481LA" type="interaction_compartment"/>
+                      <children xmi:type="notation:BasicDecorationNode" xmi:id="_qu6qJJIOEe-i0KzxC481LA" type="Name"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qu6qJZIOEe-i0KzxC481LA" x="529" y="529"/>
+                    </children>
+                  </contents>
+                </eAnnotations>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:Interaction" xmi:id="_t4PykJIOEe-i0KzxC481LA" name="ListarInvernaderosCommand">
+                <eAnnotations xmi:id="_t4QZoJIOEe-i0KzxC481LA" source="uml2.diagrams">
+                  <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_t4QZoZIOEe-i0KzxC481LA" type="Sequence" element="_t4PykJIOEe-i0KzxC481LA" name="ListarInvernaderosCommand" measurementUnit="Himetric">
+                    <children xmi:type="umlnotation:UMLShape" xmi:id="_t4QZopIOEe-i0KzxC481LA" element="_t4PykJIOEe-i0KzxC481LA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                      <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_t4QZo5IOEe-i0KzxC481LA" type="interaction_compartment"/>
+                      <children xmi:type="notation:BasicDecorationNode" xmi:id="_t4QZpJIOEe-i0KzxC481LA" type="Name"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t4QZpZIOEe-i0KzxC481LA" x="529" y="529"/>
+                    </children>
+                  </contents>
+                </eAnnotations>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:Interaction" xmi:id="_1eDtYJIOEe-i0KzxC481LA" name="ListarTresFechasEntradasVendidasInvernaderoCommand">
+                <eAnnotations xmi:id="_1eEUcJIOEe-i0KzxC481LA" source="uml2.diagrams">
+                  <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_1eEUcZIOEe-i0KzxC481LA" type="Sequence" element="_1eDtYJIOEe-i0KzxC481LA" name="ListarTresFechasEntradasVendidasInvernaderoCommand" measurementUnit="Himetric">
+                    <children xmi:type="umlnotation:UMLShape" xmi:id="_1eEUcpIOEe-i0KzxC481LA" element="_1eDtYJIOEe-i0KzxC481LA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                      <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_1eEUc5IOEe-i0KzxC481LA" type="interaction_compartment"/>
+                      <children xmi:type="notation:BasicDecorationNode" xmi:id="_1eEUdJIOEe-i0KzxC481LA" type="Name"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1eEUdZIOEe-i0KzxC481LA" x="529" y="529"/>
+                    </children>
+                  </contents>
+                </eAnnotations>
+              </ownedBehavior>
+            </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_h12uYIFdEe-6Bpx90-putA" name="CommandPlanta">
             <eAnnotations xmi:id="_h12uYYFdEe-6Bpx90-putA" source="uml2.diagrams">
