@@ -940,7 +940,7 @@
             <children xmi:type="notation:ListCompartment" xmi:id="_LGOpgZcOEe-d-uZYnOYzKg" visible="false" type="NestedNodeListCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_LGOpgpcOEe-d-uZYnOYzKg" visible="false" type="NestedNodeShapeCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_LGOpg5cOEe-d-uZYnOYzKg" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LGJxAZcOEe-d-uZYnOYzKg" x="10209" y="6396" height="4932"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LGJxAZcOEe-d-uZYnOYzKg" x="10209" y="7134" height="4932"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_7Po5YZcPEe-d-uZYnOYzKg" element="_7Po5YJcPEe-d-uZYnOYzKg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Image">
             <children xmi:type="notation:DecorationNode" xmi:id="_7Ptx4JcPEe-d-uZYnOYzKg" type="ImageCompartment">
@@ -958,7 +958,7 @@
             <children xmi:type="notation:ListCompartment" xmi:id="_7Ptx65cPEe-d-uZYnOYzKg" visible="false" type="NestedNodeListCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_7Ptx7JcPEe-d-uZYnOYzKg" visible="false" type="NestedNodeShapeCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_7Ptx7ZcPEe-d-uZYnOYzKg" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7Po5YpcPEe-d-uZYnOYzKg" x="10824" y="12669"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7Po5YpcPEe-d-uZYnOYzKg" x="10824" y="13407"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_ulBR0JcYEe-d-uZYnOYzKg" element="_uk-1kJcYEe-d-uZYnOYzKg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
             <eAnnotations xmi:id="_ulBR0pcYEe-d-uZYnOYzKg" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
@@ -1025,18 +1025,6 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_0Ko2hpcYEe-d-uZYnOYzKg" type="Stereotype"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_0KpdkJcYEe-d-uZYnOYzKg" type="CommentBody"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0Ko2gZcYEe-d-uZYnOYzKg" x="6519" y="25215"/>
-          </children>
-          <children xmi:type="umlnotation:UMLShape" xmi:id="_l3rcUJcaEe-d-uZYnOYzKg" element="_l3pnIJcaEe-d-uZYnOYzKg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-            <children xmi:type="notation:DecorationNode" xmi:id="_l3sDYJcaEe-d-uZYnOYzKg" type="ImageCompartment">
-              <layoutConstraint xmi:type="notation:Size" xmi:id="_l3sDYZcaEe-d-uZYnOYzKg" width="1320" height="1320"/>
-            </children>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_l3sqcJcaEe-d-uZYnOYzKg" type="Stereotype"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_l3sqcZcaEe-d-uZYnOYzKg" type="Kind"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_l3sqcpcaEe-d-uZYnOYzKg" type="Name"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_l3sqc5caEe-d-uZYnOYzKg" type="Parent"/>
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_l3sqdJcaEe-d-uZYnOYzKg" type="AttributeCompartment"/>
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_l3sqdZcaEe-d-uZYnOYzKg" type="OperationCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l3rcUZcaEe-d-uZYnOYzKg" x="13864" y="16280" width="4034" height="1512"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_BIQcIJccEe-d-uZYnOYzKg" type="Note" fontName="Segoe UI" fontHeight="8" description="&lt;p>Los .jar para evitar rotura de referencias se muestran con &amp;lt;reference&amp;gt; (fueron arrastrados da la carpeta lib). Debería haberse usado &amp;lt;&amp;lt;artifact&amp;gt;&amp;gt; con dependencia de tipo Utilización conectado al paquete de Negocio&lt;/p>&lt;p>También deberían haberse incluido el driver y el dump de la base de datos para que pueda realizarse la conexión en la parte DAO&lt;/p>&lt;p>&lt;/p>&lt;p>&lt;/p>" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1">
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_BIRDMJccEe-d-uZYnOYzKg" type="DiagramName">
@@ -1356,7 +1344,6 @@
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_ANKjUJcQEe-d-uZYnOYzKg" memberEnd="_ANKjUZcQEe-d-uZYnOYzKg _ANKjVJcQEe-d-uZYnOYzKg"/>
-      <packagedElement xmi:type="uml:Artifact" xmi:id="_l3pnIJcaEe-d-uZYnOYzKg" name="Artifact1"/>
     </packagedElement>
     <profileApplication xmi:id="_3G8EppHrEe-GDq618uWa7A">
       <eAnnotations xmi:id="_3G8Ep5HrEe-GDq618uWa7A" source="http://www.eclipse.org/uml2/2.0.0/UML">
