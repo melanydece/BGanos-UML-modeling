@@ -1590,6 +1590,18 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_yRxcdbf-Ee-LV_KoXoYKZw" type="CommentBody"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yRsj8rf-Ee-LV_KoXoYKZw" y="10332"/>
           </children>
+          <children xmi:type="notation:Shape" xmi:id="_WSVEILgAEe-LV_KoXoYKZw" type="Note" fontName="Segoe UI" fontHeight="8" description="&lt;p>Aclaración de la parte respectiva a JPA:&lt;/p>&lt;p>En la carpeta lib se encuentran todos los .jar utilizados (dentro de la carpeta eclipselink)&lt;/p>&lt;p>deberían haber sido añadidos como &amp;lt;&amp;lt;artefactos&amp;gt;&amp;gt; y unidos con líneas de &quot;utilización&quot; al paquete de negocio, pero al hacer esto se nos corrompían las líneas, así que se adjuntan arrastrandolos desde el project explorer como URL&lt;/p>" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_WSVEJLgAEe-LV_KoXoYKZw" type="DiagramName">
+              <element xsi:nil="true"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_WSVEJbgAEe-LV_KoXoYKZw" type="Description">
+              <element xsi:nil="true"/>
+            </children>
+            <styles xmi:type="notation:TextStyle" xmi:id="_WSVEIbgAEe-LV_KoXoYKZw"/>
+            <styles xmi:type="notation:LineTypeStyle" xmi:id="_WSVEIrgAEe-LV_KoXoYKZw"/>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WSVEI7gAEe-LV_KoXoYKZw" x="6396" y="3690" width="13665" height="5274"/>
+          </children>
           <element xsi:nil="true"/>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_b-G-4JcJEe-d-uZYnOYzKg" element="_b-CGYJcJEe-d-uZYnOYzKg" source="_PkqA0JcHEe-d-uZYnOYzKg" target="_QGzZsJcJEe-d-uZYnOYzKg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
             <children xmi:type="notation:DecorationNode" xmi:id="_b-G-4pcJEe-d-uZYnOYzKg" type="KindLabel">
