@@ -271,6 +271,14 @@ A detailed project report describing:
 
 ---
 
+## Code Implementation
+
+The implementation of the system derived from this UML model is available in a separate repository. It can found here:
+
+https://github.com/melanydece/BGanos-java-application
+
+---
+
 ## Team
 
 Developed collaboratively by a 12-member team as part of an advanced Software Engineering course project. The full list of contributors can be found in the repository's "Contributors" section.

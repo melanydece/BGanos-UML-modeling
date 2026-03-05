@@ -268,6 +268,14 @@ Un informe detallado del proyecto que describe:
 
 ---
 
+## Código de la aplicación
+
+La implementación del sistema basada en este modelo UML está disponible en un repositorio aparte. Puede encontrarse aquí:
+
+https://github.com/melanydece/BGanos-java-application
+
+---
+
 ## Equipo
 
 Desarrollado colaborativamente por un equipo de 12 personas como parte de un proyecto avanzado del grado de Ingeniería del Software. La lista completa de contribuyentes puede encontrarse en la sección **Contributors** del repositorio.
